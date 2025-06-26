@@ -12,6 +12,7 @@ const projectsRouter = require('./routers/projectsRouter');
 
 const allowedOrigins = [
     'http://localhost:3000',
+    'https://innotrackestin.vercel.app'
 ];
 
 app.use(cors({
